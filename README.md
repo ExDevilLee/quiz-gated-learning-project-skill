@@ -50,7 +50,7 @@ Read SKILL.md in this repository and follow it as the learning workflow. Load re
 ## 示例 Prompt
 
 ```text
-Use $quiz-gated-learning-project to turn this topic into a beginner learning project. I know nothing about it. Teach one smallest concept, then quiz me before moving on.
+使用 $quiz-gated-learning-project，把这个主题变成一个适合初学者的学习项目。我对这个主题是 0 知识点小白。每次只讲一个最小知识点，讲完后先考我一下，确认我理解了再继续。
 ```
 
 ## 产出结构
