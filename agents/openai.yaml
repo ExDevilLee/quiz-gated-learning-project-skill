@@ -1,0 +1,4 @@
+interface:
+  display_name: "Quiz-Gated Learning Project"
+  short_description: "Run beginner learning with quiz gates"
+  default_prompt: "Use $quiz-gated-learning-project to turn this topic or source material into a stateful beginner learning project with quiz gates."
