@@ -22,8 +22,25 @@ It is designed for learners who say things like:
 
 ## Install
 
+If your agent or CLI supports `skills add`:
+
 ```bash
 npx skills add ExDevilLee/quiz-gated-learning-project-skill
+```
+
+## Using It With Other LLM Agents
+
+This repository is not Codex-only. The core workflow is plain Markdown:
+
+- `SKILL.md`: the main rules; any LLM agent can read it directly.
+- `references/artifact-templates.md`: templates for `README.md`, `ROADMAP.md`, and `STATE.md`.
+- `examples/llm-training-beginner-project.md`: a minimal example.
+- `agents/openai.yaml`: optional OpenAI / Codex UI metadata, not required to use the workflow.
+
+If your agent does not support `npx skills add`, give it this instruction:
+
+```text
+Read SKILL.md in this repository and follow it as the learning workflow. Load references/artifact-templates.md only when you need to create project files. Use examples/llm-training-beginner-project.md as a style reference if needed.
 ```
 
 ## Example Prompt

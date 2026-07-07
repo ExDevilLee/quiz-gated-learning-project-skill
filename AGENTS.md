@@ -2,6 +2,13 @@
 
 This is a public skill repository. Keep agent-facing rules public-safe and portable.
 
+## Agent Compatibility
+
+- Keep the canonical workflow in plain Markdown `SKILL.md`.
+- Keep optional implementation metadata under `agents/`, such as `agents/openai.yaml`.
+- Do not make the core learning workflow depend on Codex-only behavior.
+- When documenting usage, include both `npx skills add` and direct `SKILL.md` reading paths when possible.
+
 ## README Language Convention
 
 - `README.md` is the default Chinese entry.
