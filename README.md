@@ -41,8 +41,10 @@ npx skills add ExDevilLee/quiz-gated-learning-project-skill/skills/quiz-gated-le
 如果使用 Codex Marketplace CLI：
 
 ```bash
-npx codex-marketplace add ExDevilLee/quiz-gated-learning-project-skill/skills/quiz-gated-learning-project --skill
+npx codex-marketplace add ExDevilLee/quiz-gated-learning-project-skill/skills/quiz-gated-learning-project --skill --project
 ```
+
+如果想安装到全局范围，把 `--project` 换成 `--global`。
 
 ## 其他 LLM Agent 怎么用
 
