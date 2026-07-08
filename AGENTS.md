@@ -4,8 +4,8 @@ This is a public skill repository. Keep agent-facing rules public-safe and porta
 
 ## Agent Compatibility
 
-- Keep the canonical workflow in plain Markdown `SKILL.md`.
-- Keep optional implementation metadata under `agents/`, such as `agents/openai.yaml`.
+- Keep the canonical workflow in plain Markdown at `skills/quiz-gated-learning-project/SKILL.md`.
+- Keep optional implementation metadata under `skills/quiz-gated-learning-project/agents/`, such as `skills/quiz-gated-learning-project/agents/openai.yaml`.
 - Do not make the core learning workflow depend on Codex-only behavior.
 - When documenting usage, include both `npx skills add` and direct `SKILL.md` reading paths when possible.
 
